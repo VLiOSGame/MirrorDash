@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  MirrorDash
+*/
+
+"howToPlay1" = "In Mirror Dash, you control two characters simultaneously as they move along mirrored tracks. One side of the screen displays a regular track, while the other shows its inverted version. Your goal is to avoid obstacles and collect bonuses, all while synchronizing the movements of both characters.";
+
+"howToPlay2"  = "Tap the screen to control the characters. A single tap makes both characters jump at the same time. Stay focused to maintain your rhythm: the movement of one character can influence the other due to the mirrored nature of the tracks.";
+
+"howToPlay3" = "As you progress, you’ll encounter bonuses that make the game easier. For example, some bonuses slow down time, others grant temporary invincibility, or let you pass through obstacles unscathed. Use them wisely to reach the finish line.
+The objective is to guide both characters to the goal without colliding with obstacles. Attention, quick reflexes, and precise coordination are the keys to mastering Mirror Dash!";

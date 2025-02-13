@@ -1,0 +1,27 @@
+## String ##
+ strings:
+  inputs:
+     - MirrorDash/en.lproj
+  outputs:
+     - templateName: structured-swift5
+       output: MirrorDash/Generated/Strings+Generated.swift
+       params:
+         enumName: AppStrings
+
+## Assets ##
+ xcassets:
+   inputs:
+     - MirrorDash/Assets.xcassets
+   outputs:
+     - templateName: swift5
+       params:
+         forceProvidesNamespaces: true
+       output: MirrorDash/Generated/XCAssets+Generated.swift
+
+## Fonts ##
+ fonts:
+  inputs:
+     - MirrorDash/Fonts
+  outputs:
+     - templateName: swift5
+       output: MirrorDash/Generated/Fonts+Generated.swift
