@@ -6,46 +6,221 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7A08B8642D6261F700A37998 /* impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A08B8412D6261F700A37998 /* impact.ttf */; };
+		7A08B8652D6261F700A37998 /* InfinityLevel.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A08B8432D6261F700A37998 /* InfinityLevel.sks */; };
+		7A08B8662D6261F700A37998 /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A08B8472D6261F700A37998 /* Level1.sks */; };
+		7A08B8672D6261F700A37998 /* Level2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A08B84B2D6261F700A37998 /* Level2.sks */; };
+		7A08B8682D6261F700A37998 /* Level3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A08B84F2D6261F700A37998 /* Level3.sks */; };
+		7A08B8692D6261F700A37998 /* Level4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A08B8532D6261F700A37998 /* Level4.sks */; };
+		7A08B86A2D6261F700A37998 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A08B85C2D6261F700A37998 /* Preview Assets.xcassets */; };
+		7A08B86B2D6261F700A37998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A08B85E2D6261F700A37998 /* Assets.xcassets */; };
+		7A08B86D2D6261F700A37998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A08B8602D6261F700A37998 /* LaunchScreen.storyboard */; };
+		7A08B86E2D6261F700A37998 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A08B8622D6261F700A37998 /* Localizable.strings */; };
+		7A08B86F2D6261F700A37998 /* MirrorDashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B8392D6261F700A37998 /* MirrorDashApp.swift */; };
+		7A08B8702D6261F700A37998 /* FutureLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B83B2D6261F700A37998 /* FutureLevel.swift */; };
+		7A08B8712D6261F700A37998 /* HowToPlayScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B83C2D6261F700A37998 /* HowToPlayScreen.swift */; };
+		7A08B8722D6261F700A37998 /* LevelsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B83D2D6261F700A37998 /* LevelsScreen.swift */; };
+		7A08B8732D6261F700A37998 /* MainGameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B83E2D6261F700A37998 /* MainGameMenu.swift */; };
+		7A08B8742D6261F700A37998 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B83F2D6261F700A37998 /* SettingsScreen.swift */; };
+		7A08B8752D6261F700A37998 /* InfinityLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B8442D6261F700A37998 /* InfinityLevelScene.swift */; };
+		7A08B8762D6261F700A37998 /* InfinityLevelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B8452D6261F700A37998 /* InfinityLevelScreen.swift */; };
+		7A08B8772D6261F700A37998 /* level1Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B8482D6261F700A37998 /* level1Scene.swift */; };
+		7A08B8782D6261F700A37998 /* Level1Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B8492D6261F700A37998 /* Level1Screen.swift */; };
+		7A08B8792D6261F700A37998 /* Level2Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B84C2D6261F700A37998 /* Level2Scene.swift */; };
+		7A08B87A2D6261F700A37998 /* Level2Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B84D2D6261F700A37998 /* Level2Screen.swift */; };
+		7A08B87B2D6261F700A37998 /* Level3Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B8502D6261F700A37998 /* Level3Scene.swift */; };
+		7A08B87C2D6261F700A37998 /* Level3Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B8512D6261F700A37998 /* Level3Screen.swift */; };
+		7A08B87D2D6261F700A37998 /* Level4Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B8542D6261F700A37998 /* Level4Scene.swift */; };
+		7A08B87E2D6261F700A37998 /* Level4Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B8552D6261F700A37998 /* Level4Screen.swift */; };
+		7A08B87F2D6261F700A37998 /* Fonts+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B8582D6261F700A37998 /* Fonts+Generated.swift */; };
+		7A08B8802D6261F700A37998 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B8592D6261F700A37998 /* Strings+Generated.swift */; };
+		7A08B8812D6261F700A37998 /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08B85A2D6261F700A37998 /* XCAssets+Generated.swift */; };
+		7A08B8842D62624000A37998 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 7A08B8832D62624000A37998 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		7A08B8862D62624000A37998 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 7A08B8852D62624000A37998 /* FirebaseMessaging */; };
+		7A08B8882D62624000A37998 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 7A08B8872D62624000A37998 /* FirebaseRemoteConfig */; };
+		7A08B88A2D62639D00A37998 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A08B8892D62639D00A37998 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		7A08B8392D6261F700A37998 /* MirrorDashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorDashApp.swift; sourceTree = "<group>"; };
+		7A08B83B2D6261F700A37998 /* FutureLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureLevel.swift; sourceTree = "<group>"; };
+		7A08B83C2D6261F700A37998 /* HowToPlayScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayScreen.swift; sourceTree = "<group>"; };
+		7A08B83D2D6261F700A37998 /* LevelsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsScreen.swift; sourceTree = "<group>"; };
+		7A08B83E2D6261F700A37998 /* MainGameMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameMenu.swift; sourceTree = "<group>"; };
+		7A08B83F2D6261F700A37998 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		7A08B8412D6261F700A37998 /* impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = impact.ttf; sourceTree = "<group>"; };
+		7A08B8432D6261F700A37998 /* InfinityLevel.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = InfinityLevel.sks; sourceTree = "<group>"; };
+		7A08B8442D6261F700A37998 /* InfinityLevelScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityLevelScene.swift; sourceTree = "<group>"; };
+		7A08B8452D6261F700A37998 /* InfinityLevelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityLevelScreen.swift; sourceTree = "<group>"; };
+		7A08B8472D6261F700A37998 /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
+		7A08B8482D6261F700A37998 /* level1Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level1Scene.swift; sourceTree = "<group>"; };
+		7A08B8492D6261F700A37998 /* Level1Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1Screen.swift; sourceTree = "<group>"; };
+		7A08B84B2D6261F700A37998 /* Level2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level2.sks; sourceTree = "<group>"; };
+		7A08B84C2D6261F700A37998 /* Level2Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2Scene.swift; sourceTree = "<group>"; };
+		7A08B84D2D6261F700A37998 /* Level2Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2Screen.swift; sourceTree = "<group>"; };
+		7A08B84F2D6261F700A37998 /* Level3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level3.sks; sourceTree = "<group>"; };
+		7A08B8502D6261F700A37998 /* Level3Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3Scene.swift; sourceTree = "<group>"; };
+		7A08B8512D6261F700A37998 /* Level3Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3Screen.swift; sourceTree = "<group>"; };
+		7A08B8532D6261F700A37998 /* Level4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level4.sks; sourceTree = "<group>"; };
+		7A08B8542D6261F700A37998 /* Level4Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level4Scene.swift; sourceTree = "<group>"; };
+		7A08B8552D6261F700A37998 /* Level4Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level4Screen.swift; sourceTree = "<group>"; };
+		7A08B8582D6261F700A37998 /* Fonts+Generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts+Generated.swift"; sourceTree = "<group>"; };
+		7A08B8592D6261F700A37998 /* Strings+Generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
+		7A08B85A2D6261F700A37998 /* XCAssets+Generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
+		7A08B85C2D6261F700A37998 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A08B85E2D6261F700A37998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A08B85F2D6261F700A37998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A08B8602D6261F700A37998 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A08B8612D6261F700A37998 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7A08B8892D62639D00A37998 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E96616762D5156650014293B /* MirrorDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MirrorDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E966168C2D5157F20014293B /* Exceptions for "MirrorDash" folder in "MirrorDash" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = E96616752D5156650014293B /* MirrorDash */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		E96616782D5156650014293B /* MirrorDash */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				E966168C2D5157F20014293B /* Exceptions for "MirrorDash" folder in "MirrorDash" target */,
-			);
-			path = MirrorDash;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E96616732D5156650014293B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A08B8882D62624000A37998 /* FirebaseRemoteConfig in Frameworks */,
+				7A08B8862D62624000A37998 /* FirebaseMessaging in Frameworks */,
+				7A08B8842D62624000A37998 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A08B83A2D6261F700A37998 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7A08B8392D6261F700A37998 /* MirrorDashApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7A08B8402D6261F700A37998 /* AppScreens */ = {
+			isa = PBXGroup;
+			children = (
+				7A08B83B2D6261F700A37998 /* FutureLevel.swift */,
+				7A08B83C2D6261F700A37998 /* HowToPlayScreen.swift */,
+				7A08B83D2D6261F700A37998 /* LevelsScreen.swift */,
+				7A08B83E2D6261F700A37998 /* MainGameMenu.swift */,
+				7A08B83F2D6261F700A37998 /* SettingsScreen.swift */,
+			);
+			path = AppScreens;
+			sourceTree = "<group>";
+		};
+		7A08B8422D6261F700A37998 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7A08B8412D6261F700A37998 /* impact.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7A08B8462D6261F700A37998 /* InfinityLevel */ = {
+			isa = PBXGroup;
+			children = (
+				7A08B8432D6261F700A37998 /* InfinityLevel.sks */,
+				7A08B8442D6261F700A37998 /* InfinityLevelScene.swift */,
+				7A08B8452D6261F700A37998 /* InfinityLevelScreen.swift */,
+			);
+			path = InfinityLevel;
+			sourceTree = "<group>";
+		};
+		7A08B84A2D6261F700A37998 /* Level1 */ = {
+			isa = PBXGroup;
+			children = (
+				7A08B8472D6261F700A37998 /* Level1.sks */,
+				7A08B8482D6261F700A37998 /* level1Scene.swift */,
+				7A08B8492D6261F700A37998 /* Level1Screen.swift */,
+			);
+			path = Level1;
+			sourceTree = "<group>";
+		};
+		7A08B84E2D6261F700A37998 /* Level2 */ = {
+			isa = PBXGroup;
+			children = (
+				7A08B84B2D6261F700A37998 /* Level2.sks */,
+				7A08B84C2D6261F700A37998 /* Level2Scene.swift */,
+				7A08B84D2D6261F700A37998 /* Level2Screen.swift */,
+			);
+			path = Level2;
+			sourceTree = "<group>";
+		};
+		7A08B8522D6261F700A37998 /* Level3 */ = {
+			isa = PBXGroup;
+			children = (
+				7A08B84F2D6261F700A37998 /* Level3.sks */,
+				7A08B8502D6261F700A37998 /* Level3Scene.swift */,
+				7A08B8512D6261F700A37998 /* Level3Screen.swift */,
+			);
+			path = Level3;
+			sourceTree = "<group>";
+		};
+		7A08B8562D6261F700A37998 /* Level4 */ = {
+			isa = PBXGroup;
+			children = (
+				7A08B8532D6261F700A37998 /* Level4.sks */,
+				7A08B8542D6261F700A37998 /* Level4Scene.swift */,
+				7A08B8552D6261F700A37998 /* Level4Screen.swift */,
+			);
+			path = Level4;
+			sourceTree = "<group>";
+		};
+		7A08B8572D6261F700A37998 /* GameLevels */ = {
+			isa = PBXGroup;
+			children = (
+				7A08B8462D6261F700A37998 /* InfinityLevel */,
+				7A08B84A2D6261F700A37998 /* Level1 */,
+				7A08B84E2D6261F700A37998 /* Level2 */,
+				7A08B8522D6261F700A37998 /* Level3 */,
+				7A08B8562D6261F700A37998 /* Level4 */,
+			);
+			path = GameLevels;
+			sourceTree = "<group>";
+		};
+		7A08B85B2D6261F700A37998 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				7A08B8582D6261F700A37998 /* Fonts+Generated.swift */,
+				7A08B8592D6261F700A37998 /* Strings+Generated.swift */,
+				7A08B85A2D6261F700A37998 /* XCAssets+Generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		7A08B85D2D6261F700A37998 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A08B85C2D6261F700A37998 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A08B8632D6261F700A37998 /* MirrorDash */ = {
+			isa = PBXGroup;
+			children = (
+				7A08B8892D62639D00A37998 /* GoogleService-Info.plist */,
+				7A08B83A2D6261F700A37998 /* App */,
+				7A08B8402D6261F700A37998 /* AppScreens */,
+				7A08B8422D6261F700A37998 /* Fonts */,
+				7A08B8572D6261F700A37998 /* GameLevels */,
+				7A08B85B2D6261F700A37998 /* Generated */,
+				7A08B85D2D6261F700A37998 /* Preview Content */,
+				7A08B85E2D6261F700A37998 /* Assets.xcassets */,
+				7A08B85F2D6261F700A37998 /* Info.plist */,
+				7A08B8602D6261F700A37998 /* LaunchScreen.storyboard */,
+				7A08B8622D6261F700A37998 /* Localizable.strings */,
+			);
+			path = MirrorDash;
+			sourceTree = "<group>";
+		};
 		E966166D2D5156650014293B = {
 			isa = PBXGroup;
 			children = (
-				E96616782D5156650014293B /* MirrorDash */,
+				7A08B8632D6261F700A37998 /* MirrorDash */,
 				E96616772D5156650014293B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,11 +249,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				E96616782D5156650014293B /* MirrorDash */,
-			);
 			name = MirrorDash;
 			packageProductDependencies = (
+				7A08B8832D62624000A37998 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				7A08B8852D62624000A37998 /* FirebaseMessaging */,
+				7A08B8872D62624000A37998 /* FirebaseRemoteConfig */,
 			);
 			productName = MirrorDash;
 			productReference = E96616762D5156650014293B /* MirrorDash.app */;
@@ -108,6 +283,9 @@
 			);
 			mainGroup = E966166D2D5156650014293B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7A08B8822D62624000A37998 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E96616772D5156650014293B /* Products */;
 			projectDirPath = "";
@@ -123,6 +301,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A08B8642D6261F700A37998 /* impact.ttf in Resources */,
+				7A08B8652D6261F700A37998 /* InfinityLevel.sks in Resources */,
+				7A08B8662D6261F700A37998 /* Level1.sks in Resources */,
+				7A08B8672D6261F700A37998 /* Level2.sks in Resources */,
+				7A08B8682D6261F700A37998 /* Level3.sks in Resources */,
+				7A08B8692D6261F700A37998 /* Level4.sks in Resources */,
+				7A08B86A2D6261F700A37998 /* Preview Assets.xcassets in Resources */,
+				7A08B86B2D6261F700A37998 /* Assets.xcassets in Resources */,
+				7A08B88A2D62639D00A37998 /* GoogleService-Info.plist in Resources */,
+				7A08B86D2D6261F700A37998 /* LaunchScreen.storyboard in Resources */,
+				7A08B86E2D6261F700A37998 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,10 +344,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A08B86F2D6261F700A37998 /* MirrorDashApp.swift in Sources */,
+				7A08B8702D6261F700A37998 /* FutureLevel.swift in Sources */,
+				7A08B8712D6261F700A37998 /* HowToPlayScreen.swift in Sources */,
+				7A08B8722D6261F700A37998 /* LevelsScreen.swift in Sources */,
+				7A08B8732D6261F700A37998 /* MainGameMenu.swift in Sources */,
+				7A08B8742D6261F700A37998 /* SettingsScreen.swift in Sources */,
+				7A08B8752D6261F700A37998 /* InfinityLevelScene.swift in Sources */,
+				7A08B8762D6261F700A37998 /* InfinityLevelScreen.swift in Sources */,
+				7A08B8772D6261F700A37998 /* level1Scene.swift in Sources */,
+				7A08B8782D6261F700A37998 /* Level1Screen.swift in Sources */,
+				7A08B8792D6261F700A37998 /* Level2Scene.swift in Sources */,
+				7A08B87A2D6261F700A37998 /* Level2Screen.swift in Sources */,
+				7A08B87B2D6261F700A37998 /* Level3Scene.swift in Sources */,
+				7A08B87C2D6261F700A37998 /* Level3Screen.swift in Sources */,
+				7A08B87D2D6261F700A37998 /* Level4Scene.swift in Sources */,
+				7A08B87E2D6261F700A37998 /* Level4Screen.swift in Sources */,
+				7A08B87F2D6261F700A37998 /* Fonts+Generated.swift in Sources */,
+				7A08B8802D6261F700A37998 /* Strings+Generated.swift in Sources */,
+				7A08B8812D6261F700A37998 /* XCAssets+Generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A08B8622D6261F700A37998 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A08B8612D6261F700A37998 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E96616822D5156670014293B /* Debug */ = {
@@ -292,7 +511,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MirrorDash/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Mirror Dash";
+				INFOPLIST_KEY_CFBundleDisplayName = "Reflex Dash";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -305,7 +524,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mirror.dash.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -331,7 +551,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MirrorDash/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Mirror Dash";
+				INFOPLIST_KEY_CFBundleDisplayName = "Reflex Dash";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -344,7 +564,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mirror.dash.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -380,6 +601,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A08B8822D62624000A37998 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A08B8832D62624000A37998 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A08B8822D62624000A37998 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		7A08B8852D62624000A37998 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A08B8822D62624000A37998 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		7A08B8872D62624000A37998 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A08B8822D62624000A37998 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E966166E2D5156650014293B /* Project object */;
 }
